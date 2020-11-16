@@ -43,8 +43,19 @@ for(var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++){
 
 }
 
+//Bonus
 
+var arr1 = [1, 1, 1, 1, 3, 3];
+var total = 0;
 
+for(var i in arr1){
+  total += arr1[i]}
+    
+if (total % 2 === 0 ){
+    console.log("The light is off!")
+    } else {
+    console.log("The light is on!")
+  }
 
 
 
